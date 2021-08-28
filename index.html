@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form autocomplete="on">
+        <fieldset>
+            <legend>Vignesh Homework:</legend>
+            <label for="autofocus">Autofocus:</label>
+            <input type="text" id="autofocus" name="autofocus" autofocus><br><br>
+            <label for="firstname">First name:</label>
+            <input type="text" id="firstname" name="firstname" size="50" ><br><br>
+            <label for="email">Email:(required)</label>
+            <input type="email" id="email" name="email" maxlength="10" required><br><br>
+            <label for="num">disabled</label>
+            <input type="number" id="num" name="num"  disabled><br><br>
+            <label for="Readonly">Country:</label>  
+            <input type="text" id="Readonly" name="Readonly" value="##" readonly><br><br>
+            <label for="range">Range determine min to max value of the given term (between 0 and 8999):</label><br><br>
+            <input type="range" id="range" name="RANGE" min="0" max="8999"><br><br>
+            
+            <label for="file">Learning Progress:</label>
+            <progress id="file" value="20" max="100"> </progress><br><br>
+
+            <input type="submit">
+        </fieldset>
+    </form >
+</body>
+</html>
